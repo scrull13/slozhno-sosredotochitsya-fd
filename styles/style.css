@@ -21,7 +21,7 @@ ul {
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
 .binding {
@@ -41,6 +41,7 @@ ul {
   min-height: 668px;
   max-width: 1440px;
   gap: 56px;
+  align-items: start;
 }
 .decorated-zone {
   position: relative;
@@ -136,11 +137,7 @@ h1 {
   padding-inline-end: 10px;
 }
 
-.header__theme-menu-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
+
 
 .header__theme-menu-button {
   font-size: 18px;
