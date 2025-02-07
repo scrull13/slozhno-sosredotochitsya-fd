@@ -105,12 +105,11 @@ ul {
   text-shadow: 4px 4px 0 var(--shadow-title, #ff0070);
   padding-block-start: 8px;
   padding-inline-end: 10px;
-  padding-inline-start: 10px;
+  padding-left: 8px;
 }
 
 .header__page__text {
   font-weight: 700;
-  line-height: 130%;
   text-align: left;
   font-size: 18px;
   color: var(--header-text-color, #000028);
@@ -121,19 +120,16 @@ ul {
   justify-self: end;
   padding-inline-end: 10px;
   padding-inline-start: 10px;
+  margin-top: -2px;
 }
 
 h1 {
   margin: 0;
 }
 
-/**.header {
-  align-items: start;
-}**/
-
 .header__theme-menu {
   justify-self: end;
-  padding-block-start: 74px;
+  padding-block-start: 72px;
   padding-inline-end: 10px;
 }
 
@@ -201,16 +197,14 @@ a {
   place-items: center;
 }
 
-/**.header__theme-menu-button_active {
-  border-color: currentColor;
-  cursor: default;
-  pointer-events: none;
-}*/
 
 .title__concentrate {
   color: var(--color-purple-2, #ff0070);
   font-weight: 700;
   font-size: inherit;
+}
+.title-concentrate-list{
+  margin-top: 8px;
 }
 .concentrate-advices-title {
   margin-block-end: 20px;
@@ -220,15 +214,16 @@ a {
   display: grid;
   gap: 10px;
 }
-.concentrate__text {
-  color: var(--color-black-1, #000028);
-  background-color: var(--color-purple-2, #ff0070);
-}
 
 .advices__text {
   color: var(--color-black-1, #000028);
   background-color: var(--color-purple-2, #ff0070);
   font-weight: 500;
+}
+
+.section.gallery__advices{
+  display: grid;
+  gap: 10px;
 }
 .gallery__list {
   display: grid;
@@ -251,15 +246,42 @@ a {
   display: flex;
   justify-content: center;
 }
+
+.section {
+  display: grid;
+  gap: 25px;
+}
+.concentrate__text {
+  color: var(--color-black-1, #000028);
+  background-color: var(--color-purple-2, #ff0070);
+  font-size: 18px;
+  margin-top: -6px;
+}
+.concentrate__dophamine{
+  color: var(--color-black-1, #000028);
+  background-color: var(--color-purple-2, #ff0070);
+  font-size: 18px;
+}
+.concentrate__main{
+  padding-top: 9px;
+}
+.concentrate__attention{
+  display: grid;
+  gap: 17px;
+}
+
 .article__list {
   display: grid;
   gap: 20px;
 }
 
-.section {
-  display: grid;
-  gap: 20px;
+.article__food{
+  padding-top: 5px;
 }
+.article__gadgets{
+  padding-top: 6px;
+}
+
 
 @media (width >= 768px) {
   .rec-decor {
@@ -275,12 +297,16 @@ a {
     align-self: auto;
     max-width: 384px;
     width: 100%;
-    padding-inline-start: 0px;
+    padding-inline-start: 1px;
     padding-inline-end: 20px;
-    padding-block-start: 42px;
+    padding-block-start: 41px;
   }
   .page__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    padding-top: 2px;
+  }
+  .article{
+    padding-top: 10px;
   }
 
   .section {
@@ -292,13 +318,15 @@ a {
 
   .title-concentrate-list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     grid-column: 1 / -1;
-    padding: 0;
+    padding-left: 10px;
+    margin-top: -1px;
   }
   .gallery__advices {
     grid-template-columns: 1fr;
     gap: 20px;
+    padding-top: 7px;
+    padding-left: 10px;
   }
   .gallery__list {
     grid-template-columns: repeat(3, 1fr);
@@ -316,19 +344,31 @@ a {
   }
 
   .header__theme-menu {
+    margin-block-start: 114px;
     padding-inline-end: 20px;
-    padding-block-start: 0px;
-    padding-block-end: 53px;
-  }
+    display: flex;
+    gap: 12px;
+}
 
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     padding-left: 0;
   }
+  .title__concentrate{
+    padding-left: 9px;
+  }
+
+  .five__advices{
+    padding-top: 9px;
+    padding-left: 12px;
+  }
 
   .main {
     gap: 80px;
-    padding: 60px 20px;
+    padding-top: 60px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+
   }
   .decorated-zone::before {
     top: 20px;
@@ -339,6 +379,9 @@ a {
     bottom: 20px;
     left: 20px;
   }
+  .footer__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+}
 }
 
 @media (min-width: 1024px) {
@@ -356,12 +399,23 @@ a {
 
   .header__theme-menu-list {
     flex-direction: row;
-    gap: 13px;
+    gap: 10px;
+    margin-top: -2px;
   }
   .page__title {
     padding-block-end: 25px;
   }
   .header__page-decoreted {
     max-width: 512px;
+  }
+  .five__advices{
+    padding-top: 8px;
+    padding-left: 12px;
+  }
+  .adv__text{
+    margin-bottom: -2px;
+  }
+  .footer__title{
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
