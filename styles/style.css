@@ -1,4 +1,4 @@
-body>* {
+body > * {
   padding-inline: 10px;
 }
 
@@ -29,7 +29,7 @@ body>* {
 
 .decorated-zone::before,
 .decorated-zone::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 25px;
   height: 25px;
@@ -39,19 +39,19 @@ body>* {
 .decorated-zone::before {
   top: 10px;
   right: 10px;
-  border-top: 1px solid var(--accent-color, #FF0070);
-  border-right: 1px solid var(--accent-color, #FF0070);
+  border-top: 1px solid var(--accent-color, #ff0070);
+  border-right: 1px solid var(--accent-color, #ff0070);
 }
 
 .decorated-zone::after {
   bottom: 10px;
   left: 10px;
-  border-bottom: 1px solid var(--accent-color, #FF0070);
-  border-left: 1px solid var(--accent-color, #FF0070);
+  border-bottom: 1px solid var(--accent-color, #ff0070);
+  border-left: 1px solid var(--accent-color, #ff0070);
 }
 
 .header__theme-menu-item {
-  color: var(--accent-color, #FF0070);
+  color: var(--accent-color, #ff0070);
 }
 
 .header__theme-menu-list {
@@ -114,13 +114,13 @@ body>* {
   align-self: center;
   color: var(--title-color, #db00ff);
   line-height: 83%;
-  text-shadow: 4px 4px 0 var(--shadow-title, #FF0070);
+  text-shadow: 4px 4px 0 var(--shadow-title, #ff0070);
   padding-block-start: 8px;
   padding-inline-end: 10px;
   padding-inline-start: 10px;
 }
 
-.page__subtitle_text  {
+.page__subtitle_text {
   align-self: end;
   justify-self: end;
   padding-inline-end: 10px;
@@ -135,7 +135,7 @@ body>* {
 }
 
 .title {
-  color: var(--accent-color, #FF0070);
+  color: var(--accent-color, #ff0070);
 }
 
 .title-decorated {
@@ -154,8 +154,8 @@ body>* {
 }
 
 .decor::before {
-  content: 'REC';
-  font-family: var(--font-family, 'IBM Plex Mono', monospace);
+  content: "REC";
+  font-family: var(--font-family, "IBM Plex Mono", monospace);
   font-size: 18px;
   font-weight: 400;
   color: var(--accent-color, #ff0070);
@@ -164,7 +164,7 @@ body>* {
 }
 
 .decor::after {
-  content: '';
+  content: "";
   position: relative;
   min-width: 9px;
   min-height: 9px;
@@ -182,7 +182,7 @@ body>* {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
-} 
+}
 
 .section__data:first-of-type {
   margin-block-start: 40px;
@@ -260,7 +260,7 @@ body>* {
 }
 
 .footer__title {
-  font-family: var(--font-family, 'IBM Plex Mono', monospace);
+  font-family: var(--font-family, "IBM Plex Mono", monospace);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: 700;
   align-self: center;
@@ -271,7 +271,7 @@ body>* {
 }
 
 @media (min-width: 768px) {
-  body>* {
+  body > * {
     padding-inline: 20px;
   }
 
@@ -324,7 +324,7 @@ body>* {
     grid-column: 2 / 3;
   }
 
-  .section__data{
+  .section__data {
     margin-block-start: 80px;
   }
 
@@ -363,7 +363,7 @@ body>* {
       grid-row: 1 / span 2;
     }
   }
-  
+
   .gallery {
     gap: 20px;
   }
@@ -374,8 +374,7 @@ body>* {
     grid-template-areas:
       "sea sea icecream"
       "cassette books icecream"
-      "cassette street street"
-    ;
+      "cassette street street";
     gap: 20px;
   }
 
