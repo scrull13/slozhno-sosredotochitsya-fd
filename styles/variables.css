@@ -8,6 +8,7 @@
   --accent-color: #FF0070;
   --title-color: #DB00FF;
   --shadow-title: #FF0070;
+  --shadow-title-light: #FF8DCB;
   --link-color: rgba(255, 0, 112, 0.4);
   --decor-display: flex;
 }

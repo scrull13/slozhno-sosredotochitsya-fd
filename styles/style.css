@@ -23,7 +23,6 @@ body > * {
   height: 100vh;
   padding: 0;
   min-height: 668px;
-  max-width: 1440px;
   gap: 56px;
 }
 
@@ -101,6 +100,13 @@ body > * {
   outline: 1px solid currentColor;
 }
 
+.page__nofocus-subtitle {
+  font-weight: 700;
+  align-self: end;
+  justify-self: end;
+  padding-inline-end: 10px;
+  padding-inline-start: 10px;
+}
 .page__subtitle {
   font-weight: 700;
   line-height: 130%;
@@ -121,10 +127,7 @@ body > * {
 }
 
 .page__subtitle_text {
-  align-self: end;
-  justify-self: end;
-  padding-inline-end: 10px;
-  padding-inline-start: 10px;
+  line-height: 130%;
 }
 
 .advices {
@@ -279,8 +282,7 @@ body > * {
     grid-template-rows: 1fr 1fr 1fr;
     gap: 0px;
   }
-
-  .page__subtitle_text {
+  .page__nofocus-subtitle {
     align-self: auto;
     max-width: 384px;
     width: 100%;
@@ -350,7 +352,6 @@ body > * {
   }
 
   .attention .subtitle {
-    display: grid;
     grid-column: 1 / -1;
     padding: 0;
   }
@@ -401,10 +402,7 @@ body > * {
   .footer {
     margin-block-start: 40px;
   }
-
-  .footer__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
+  
 }
 
 @media (min-width: 1024px) {
@@ -428,7 +426,7 @@ body > * {
     padding-block-end: 25px;
   }
 
-  .page__subtitle_text {
+  .page__nofocus-subtitle {
     max-width: 512px;
   }
 
@@ -438,7 +436,6 @@ body > * {
   }
 
   .attention .subtitle {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column: 1 / -1;
     padding: 0;
