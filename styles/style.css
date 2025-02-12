@@ -302,6 +302,10 @@ body > * {
     padding-left: 0;
   }
 
+  .footer__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
   .title {
     grid-column: 1;
     margin-block-start: 0px;
@@ -402,7 +406,6 @@ body > * {
   .footer {
     margin-block-start: 40px;
   }
-  
 }
 
 @media (min-width: 1024px) {
@@ -436,6 +439,7 @@ body > * {
   }
 
   .attention .subtitle {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column: 1 / -1;
     padding: 0;
