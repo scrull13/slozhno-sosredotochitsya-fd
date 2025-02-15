@@ -8,6 +8,7 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  padding-inline: 10px;
 }
 
 .header {
@@ -419,9 +420,9 @@
   .header {
     padding-block-start: 20px;
   }
-  
-  .page__nofocus-subtitle{
-    max-width:  512px;
+
+  .page__nofocus-subtitle {
+    max-width: 512px;
   }
 
   .header__theme-menu {
