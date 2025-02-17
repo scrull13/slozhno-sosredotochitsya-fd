@@ -3,7 +3,6 @@
   font-size: 18px;
   color: var(--text-color, #f1b2ce);
   background-color: var(--bg-color, #000028);
-  background-image: var(--bg-image);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -22,6 +21,7 @@
   min-height: 668px;
   max-width: 1440px;
   gap: 56px;
+  background-image: var(--bg-image);
 }
 
 .decorated-zone::before,
@@ -284,9 +284,9 @@
     align-self: auto;
     max-width: 384px;
     width: 100%;
-    padding-inline-start: 25px;
+    padding-inline-start: 26px;
     padding-inline-end: 0px;
-    padding-block-start: 41px;
+    padding-block-start: 44px;
   }
 
   .header__theme-menu {
@@ -419,6 +419,10 @@
 @media (min-width: 1024px) {
   .header {
     padding-block-start: 20px;
+  }
+  
+  .footer__title{
+    margin-block-end: 30px;
   }
 
   .page__nofocus-subtitle {
