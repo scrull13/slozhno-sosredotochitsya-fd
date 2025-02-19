@@ -284,7 +284,6 @@
     max-width: 384px;
     width: 100%;
     padding-inline-start: 10px;
-    padding-block-start: 123px;
   }
 
   .header__theme-menu {
@@ -295,7 +294,6 @@
   .page__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     padding-inline-start: 0;
-    margin-block-start: 116px;
   }
 
   .title {
