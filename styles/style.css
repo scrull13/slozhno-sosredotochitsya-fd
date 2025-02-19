@@ -277,18 +277,22 @@
   .header {
     grid-template-rows: 1fr 1fr 1fr;
     gap: 0px;
+    min-height: 1024px;
+    min-width: 768px;
   }
 
   .page__nofocus-subtitle {
     align-self: auto;
-    max-width: 384px;
+    max-width: 394px;
     width: 100%;
-    padding-inline-start: 10px;
+    margin-block-start: 41px;
+    padding-inline-end: 30px;
+    
   }
 
   .header__theme-menu {
-    padding-block-start: 0px;
-    padding-block-end: 13px;
+    padding-inline-end: 30px;
+    margin-block-end: 54px;
   }
 
   .page__title {
@@ -316,7 +320,7 @@
 
   .header.decorated-zone::before {
     top: 20px;
-    right: 10px;
+    right: 30px;
   }
 
   .header.decorated-zone::after {
@@ -336,7 +340,7 @@
 
   .decor {
     top: 19px;
-    right: 20px;
+    right: 39px;
   }
 
   .subtitle {
@@ -359,7 +363,7 @@
   }
 
   .section__data:first-of-type {
-    margin-block-start: 183px;
+    margin-block-start: 60px;
   }
 
   .section__data:last-of-type {
