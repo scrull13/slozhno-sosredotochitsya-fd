@@ -287,7 +287,6 @@
     width: 100%;
     margin-block-start: 41px;
     padding-inline-end: 30px;
-    
   }
 
   .header__theme-menu {
@@ -442,7 +441,7 @@
     align-self: start;
     padding-inline-end: 25px;
     padding-block-end: 0;
-    margin-block-end:   10px;
+    margin-block-end: 10px;
     padding-block-start: 0;
   }
 
