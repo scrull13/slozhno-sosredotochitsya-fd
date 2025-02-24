@@ -362,10 +362,6 @@
     margin-block-start: 60px;
   }
 
-  .section__data:last-of-type {
-    margin-block-end: 140px;
-  }
-
   .fish__title {
     grid-row: 1;
     grid-column: 2 / 3;
@@ -417,9 +413,12 @@
     grid-area: street;
   }
 
+  .footer {
+    margin-block-start: 140px;
+  }
+
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    
     transform: translateX(2%);
   }
 }
