@@ -326,12 +326,12 @@
   }
 
   .footer.decorated-zone::before {
-    top: -40px;
+    top: -35px;
     right: 10px;
   }
 
   .footer.decorated-zone::after {
-    bottom: -42px;
+    bottom: -47px;
     left: 10px;
   }
 
@@ -417,8 +417,9 @@
   }
 
   .footer {
-    margin-block-start: 120px;
-    padding-bottom: 10px;
+    margin-block-start: 115px;
+    margin-bottom: 70px;
+    
   }
 
   .footer__title {
@@ -510,6 +511,9 @@
   
   .footer{
     margin-block-start: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+
   }
 
   .footer.decorated-zone::before {
