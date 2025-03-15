@@ -11,17 +11,3 @@
   --decor-display: none;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg-image: url(../images/cover-image-light.png);
-    --bg-color: #fff1f7;
-    --header-text-color: #353430;
-    --header-background: #ff8dcb;
-    --text-color: #353430;
-    --accent-color: #353430;
-    --title-color: #ffc2e6;
-    --shadow-title: #ff8dcb;
-    --link-color: rgba(50, 49, 45, 0.4);
-    --decor-display: none;
-  }
-}
